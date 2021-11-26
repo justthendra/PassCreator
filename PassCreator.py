@@ -124,10 +124,10 @@ if a == 1:
     b = input("[*] Kurbanin K.Adini Girin.: ")
     c = input("[*] Kurbanin Dogum Tarihini Girin (ddmmyy).: ")
     hesaplama()
-    x = open("pass.txt", "w")
+    sifre = open("pass.txt", "w")
     for xd in passdude:
-        x.write("%s\n" % xd)
-    x.close()
+        sifre.write("%s\n" % xd)
+    sifre.close()
     print("""
     [x] %s Sifre Listesi Olusturuldu. 
     """% f)
