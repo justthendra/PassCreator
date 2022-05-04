@@ -111,10 +111,10 @@ print("""
                                    |                                          |
                                    |----------------M--E--N--U----------------|
                                    |                                          |
-                                   |      1.) Sifre Listesi Olustur           |
-                                   |   Cikmak İcin Herhangi Bir Tusa Basin    |
-                                   |           Thendra Development            |
-                                   |          discord.gg/mRNurgF87h           |
+                                   |      1.) Sifre Listesi Oluştur           |
+                                   |   Çıkmak Için Herhangi Bir Tuşa Basın    |
+                                   |           Curwels Development            |
+                                   |          discord.gg/6MuTY4j6Qt           |
                                    --------------------------------------------
 """)
 a = int(input("[*] Lutfen Seciminizi Girin.: "))
