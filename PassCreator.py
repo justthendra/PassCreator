@@ -1,6 +1,5 @@
 import os
 import random as rasgele
-os.system("color a")
 liste = ["A","B","C","Ç","D","E","F","G","Ğ","I","İ","J","K","L","M","N","O","Ö","P","R","S","Ş","T","U","Ü","V","Y","Z","a","b","c","ç","d","e","f","g","ğ","ı","i","j","k","l","m","n","o","ö","p","r","s","ş","t","u","ü","v","y","z",1,2,3,12,123,1234,12345,123456,1234567,12345678,123456789,123456789987,1234567899876,12345678998765,123456789987654,1234567899876543,12345678998765432,123456789987654321,159753,1,2,3,4,5,6,7,8,9,"+","++","--","-"]
 listeusr = ["root","admin","msfadmin","administrator","toor"]
 passdude = []
@@ -111,28 +110,28 @@ print("""
                                    |                                          |
                                    |----------------M--E--N--U----------------|
                                    |                                          |
-                                   |      1.) Sifre Listesi Oluştur           |
+                                   |      1.) Şifre Listesi Oluştur           |
                                    |   Çıkmak Için Herhangi Bir Tuşa Basın    |
                                    |           Curwels Development            |
                                    |          discord.gg/6MuTY4j6Qt           |
                                    --------------------------------------------
 """)
-a = int(input("[*] Lutfen Seciminizi Girin.: "))
+a = int(input("[*] Lütfen Seçiminizi Girin: "))
 if a == 1:
-    f = input("[*] Kurbanin Adini Girin.: ")
-    g = input("[*] Kurbanin Soy Adini Girin.: ")
-    b = input("[*] Kurbanin K.Adini Girin.: ")
-    c = input("[*] Kurbanin Dogum Tarihini Girin (ddmmyy).: ")
+    f = input("[*] Kurbanın Adını Girin: ")
+    g = input("[*] Kurbanın Soy Adını Girin: ")
+    b = input("[*] Kurbanın K.Adını Girin.: ")
+    c = input("[*] Kurbanın Doğum Tarihini Girin (ddmmyy).: ")
     hesaplama()
-    sifre = open("pass.txt", "w")
+    sifre = open("şifre.txt", "w")
     for xd in passdude:
         sifre.write("%s\n" % xd)
     sifre.close()
     print("""
-    [x] %s Sifre Listesi Olusturuldu. 
+    [x] %s Şifre Listesi Oluşturuldu. 
     """% f)
-    ix = input("[*] Dosyayi Kontrol Etmek İstermisiniz ? [E / H].: ")
+    ix = input("[*] Dosyayı Kontrol Etmek Istermisiniz ? [E / H].: ")
     if ix == "E":
-        os.system("pass.txt")
+        os.system("şifre.txt")
     else:
         os.system("exit")
