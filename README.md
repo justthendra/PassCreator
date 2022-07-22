@@ -19,5 +19,5 @@ Son Olarak Karşınıza 2 Tane Yazı Çıkacaktır Liste Oluşturma İşlemi Bit
 
 <a href="https://imgur.com/u0YnGda"><img src="https://i.imgur.com/u0YnGda.png" title="source: imgur.com" /></a>
 
-# Copyright © Curwels
-Kod Curwels'a Aittir Kopyalanıp Başka Yerlerde Paylaşılması Yasaktır. Fark Edildiği Takdirde Gerekli İşlemlere Başvurulacaktır.
+# Copyright © Thendra
+Kod Thendra'ya Aittir Kopyalanıp Başka Yerlerde Paylaşılması Yasaktır. Fark Edildiği Takdirde Gerekli İşlemlere Başvurulacaktır.
