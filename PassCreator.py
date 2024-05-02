@@ -112,8 +112,8 @@ print("""
                                    |                                          |
                                    |      1.) Şifre Listesi Oluştur           |
                                    |   Çıkmak Için Herhangi Bir Tuşa Basın    |
-                                   |           Curwels Development            |
-                                   |          discord.gg/6MuTY4j6Qt           |
+                                   |           Thendra Development            |
+                                   |          discord.gg/JWx8qJ7B8W           |
                                    --------------------------------------------
 """)
 a = int(input("[*] Lütfen Seçiminizi Girin: "))
