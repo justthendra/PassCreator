@@ -1,12 +1,12 @@
 import os
-import random as rasgele
+import random as rand
 liste = ["A","B","C","Ç","D","E","F","G","Ğ","I","İ","J","K","L","M","N","O","Ö","P","R","S","Ş","T","U","Ü","V","Y","Z","a","b","c","ç","d","e","f","g","ğ","ı","i","j","k","l","m","n","o","ö","p","r","s","ş","t","u","ü","v","y","z",1,2,3,12,123,1234,12345,123456,1234567,12345678,123456789,123456789987,1234567899876,12345678998765,123456789987654,1234567899876543,12345678998765432,123456789987654321,159753,1,2,3,4,5,6,7,8,9,"+","++","--","-"]
 listeusr = ["root","admin","msfadmin","administrator","toor"]
 passdude = []
 def hesaplamausr():
     asd = 1
     while asd >= 2000:
-        e = rasgele.choice(listeusr)
+        e = rand.choice(listeusr)
         e = str(e)
         pass1 = e + f
         pass2 = f + e
@@ -60,10 +60,10 @@ def hesaplamausr():
         else:
             continue
     return passdude
-def hesaplama():
+def calculation():
     asd = 1
     while asd < 1000:
-        e = rasgele.choice(liste)
+        e = rand.choice(liste)
         e = str(e)
         pass1 = e + f
         pass2 = f + e
@@ -122,11 +122,11 @@ if a == 1:
     g = input("[*] Kurbanın Soy Adını Girin: ")
     b = input("[*] Kurbanın K.Adını Girin.: ")
     c = input("[*] Kurbanın Doğum Tarihini Girin (ddmmyy).: ")
-    hesaplama()
-    sifre = open("şifre.txt", "w")
+    calculation()
+    passwordd = open("şifre.txt", "w")
     for xd in passdude:
-        sifre.write("%s\n" % xd)
-    sifre.close()
+        passwordd.write("%s\n" % xd)
+    passwordd.close()
     print("""
     [x] %s Şifre Listesi Oluşturuldu. 
     """% f)
