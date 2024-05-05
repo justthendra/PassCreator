@@ -110,28 +110,28 @@ print("""
                                    |                                          |
                                    |----------------M--E--N--U----------------|
                                    |                                          |
-                                   |      1.) Şifre Listesi Oluştur           |
-                                   |   Çıkmak Için Herhangi Bir Tuşa Basın    |
+                                   |        1.) Create Password List          |
+                                   |           Press Any Key to Exit          |
                                    |           Thendra Development            |
                                    |          discord.gg/JWx8qJ7B8W           |
                                    --------------------------------------------
 """)
-a = int(input("[*] Lütfen Seçiminizi Girin: "))
+a = int(input("[*] Please Enter Your Choice: "))
 if a == 1:
-    f = input("[*] Kurbanın Adını Girin: ")
-    g = input("[*] Kurbanın Soy Adını Girin: ")
-    b = input("[*] Kurbanın K.Adını Girin.: ")
-    c = input("[*] Kurbanın Doğum Tarihini Girin (ddmmyy).: ")
+    f = input("[*] Enter Victim's Name: ")
+    g = input("[*] Enter Victim's Surname: ")
+    b = input("[*] Enter Victim's Username: ")
+    c = input("[*] Enter Victim's Date of Birth (ddmmyy).: ")
     calculation()
-    passwordd = open("şifre.txt", "w")
+    passwordd = open("pass.txt", "w")
     for xd in passdude:
         passwordd.write("%s\n" % xd)
     passwordd.close()
     print("""
-    [x] %s Şifre Listesi Oluşturuldu. 
+    [x] %s Password List Created. 
     """% f)
-    ix = input("[*] Dosyayı Kontrol Etmek Istermisiniz ? [E / H].: ")
-    if ix == "E":
-        os.system("şifre.txt")
+    ix = input("[*] Do You Want to Check the File? ? [Y / N].: ")
+    if ix == "Y":
+        os.system("pass.txt")
     else:
         os.system("exit")
